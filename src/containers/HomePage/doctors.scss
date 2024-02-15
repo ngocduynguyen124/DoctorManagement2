@@ -1,0 +1,42 @@
+/* doctors.scss */
+
+.doctor-list-6 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.doctor-avatar {
+    width: 105px;
+    height: 105px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+}
+
+.doctor-info {
+    flex-grow: 1;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.doctor-list-6:hover .doctor-info {
+    color: #45c3d2;
+}
+
+.section-customize-6 {
+    padding-left: 180px;
+    padding-top: 15px;
+}
+
+.section-header-6 {
+    margin-top: 25px;
+
+    .title-section-6 {
+        font-size: 37px;
+        text-align: center;
+    }
+}

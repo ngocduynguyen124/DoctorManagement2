@@ -1,0 +1,57 @@
+/* facilities.scss */
+.bg-image-3.section-medical-facility-3 {
+    margin-top: 30px;
+    border: 2px solid #ddd;
+}
+
+.section-specialty-3 {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+.title-section-3 {
+    font-size: 35px;
+    color: #333;
+    /* Adjust color as needed */
+}
+
+.section-body-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Adjust as needed */
+}
+
+.clinic-child-3 {
+    width: calc(25% - 20px);
+    /* Adjust width and margin as needed */
+    margin-left: 10px;
+    /* Adjust margin as needed */
+    margin-top: 10px;
+    /* Add margin-top */
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.clinic-child-3:hover {
+    transform: scale(1.05);
+    /* Adjust scale factor as needed */
+}
+
+.bg-image-3 {
+    width: 90%;
+    height: 170px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.clinic-name-3 {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+    /* Adjust color as needed */
+}
+
+/* Add any other styles you need */
